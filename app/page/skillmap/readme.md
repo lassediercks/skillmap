@@ -9,7 +9,7 @@ skill = Name of a profession + the level
 
     1. novice: I understand what it's doing, I can read it but I'm not able to do it on my own.
 
-    2. junior: I've got the baseline of this profession and can create/adapt things like I want to
+    2. junior: I've got the baseline of this profession and can create/adapt easy things like I want to
 
     3. medior: I've got solid knowledge of this profession and know what and how to achieve things with it
 

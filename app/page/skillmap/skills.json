@@ -1,57 +1,87 @@
 {
-  "category": {
-    "name": "web-techniques",
-    "list": {
-      "skill":{
-        "name": "html",
-        "level": "4"
-      },
-      "skill":{
-        "name": "CSS",
-        "level": "4"
-      },
-      "skill":{
-        "name": "Javascript",
-        "level": "2"
-      }
-    }
-  },
-  "category": {
-    "name": "design",
-    "list": {
-      "skill":{
-        "name": "psd",
-        "level": "4"
-      },
-      "skill":{
-        "name": "sketch",
-        "level": "3"
-      },
-      "skill":{
-        "name": "illustrator",
-        "level": "4"
-      },
-      "skill":{
-        "name": "icon-creation",
-        "level": "3"
-      }
-    },
-    "category": {
-      "name": "communication",
-      "list":{
-        "skill":{
-          "name": "recieve feedback",
-          "level": "3"
+"root": {
+    "category": [
+        {
+            "name": "Web Techniques",
+            "list": {
+                "skill": [
+                    {
+                        "name": "Html",
+                        "level": 4
+                    },
+                    {
+                        "name": "Css",
+                        "level": 4
+                    },
+                    {
+                        "name": "javascript",
+                        "level": 2
+                    },
+                    {
+                        "name": "SQL",
+                        "level": 1
+                    }
+
+                ]
+            }
         },
-        "skill":{
-          "name": "give feedback",
-          "level": "3"
+        {
+            "name": "Communication",
+            "list": {
+                "skill": [
+                    {
+                        "name": "give feedback",
+                        "level": 3
+                    },
+                    {
+                        "name": "recieve feedback",
+                        "level": 3
+                    },
+                    {
+                        "name": " empathic situation evaluation",
+                        "level": 4
+                    }
+                ]
+            }
         },
-        "skill":{
-          "name": "empathic situation evaluation",
-          "level": "4"
+        {
+            "name": "Tools",
+            "list": {
+                "skill": [
+                    {
+                        "name": "psd",
+                        "level": 4
+                    },
+                    {
+                        "name": "illustrator",
+                        "level": 4
+                    },
+                    {
+                        "name": "sketch",
+                        "level": 3
+                    }
+                ]
+            }
+        },
+        {
+            "name": "design",
+            "list": {
+                "skill": [
+                    {
+                        "name": "interface",
+                        "level": 3
+                    },
+                    {
+                        "name": "print",
+                        "level": 2
+                    },
+                    {
+                        "name": "icon",
+                        "level": 2
+                    }
+                ]
+            }
         }
-      }
-    }
-  }
+    ]
+}
 }
