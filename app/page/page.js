@@ -1,3 +1,3 @@
 require("./page.sass");
 require("./headerarea/header.js")
-require("./skillmap/skills.json")
+console.log(require("./skillmap/skills.json"));
