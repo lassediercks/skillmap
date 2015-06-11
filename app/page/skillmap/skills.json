@@ -1,0 +1,61 @@
+{
+  "category": {
+    "name": "web-techniques",
+    "list": {
+      "skill":{
+        "name": "html",
+        "level": "4"
+      },
+      "skill":{
+        "name": "CSS",
+        "level": "4"
+      },
+      "skill":{
+        "name": "Javascript",
+        "level": "2"
+      }
+    }
+  },
+  "category": {
+    "name": "design",
+    "list": {
+      "skill":{
+        "name": "psd",
+        "level": "4"
+      },
+      "skill":{
+        "name": "sketch",
+        "level": "3"
+      },
+      "skill":{
+        "name": "illustrator",
+        "level": "4"
+      },
+      "skill":{
+        "name": "icon-creation",
+        "level": "3"
+      }
+    },
+    "category": {
+      "name": "communication",
+      "list":{
+        "skill":{
+          "name": "recieve feedback",
+          "level": "2"
+        },
+        "skill":{
+          "name": "give feedback",
+          "level": "3"
+        },
+        "skill":{
+          "name": "empathic situation evaluation",
+          "level": "4"
+        },
+        "skill":{
+          "name": "icon-creation",
+          "level": "3"
+        }
+      }
+    }
+  }
+}
