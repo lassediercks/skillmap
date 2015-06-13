@@ -15,7 +15,7 @@ module.exports = {
             { test: /\.jade$/,   loader: "jade-loader?self" },
             { test: /\.sass$/, loader: "style!css!sass?indentedSyntax"},
             { test: /\.coffee$/, loader: "coffee-loader" },
-            { test: /\.json$/, loader: "json-loader" }
+            { test: /\.json$/, loader: "json-loader" },
 
         ]
     }

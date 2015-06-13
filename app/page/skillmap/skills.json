@@ -1,87 +1,76 @@
 {
-"root": {
     "category": [
         {
             "name": "Web Techniques",
-            "list": {
-                "skill": [
-                    {
-                        "name": "Html",
-                        "level": 4
-                    },
-                    {
-                        "name": "Css",
-                        "level": 4
-                    },
-                    {
-                        "name": "javascript",
-                        "level": 2
-                    },
-                    {
-                        "name": "SQL",
-                        "level": 1
-                    }
-
-                ]
-            }
+            "skills": [
+                {
+                    "name": "Html",
+                    "level": 4
+                },
+                {
+                    "name": "Css",
+                    "level": 4
+                },
+                {
+                    "name": "javascript",
+                    "level": 2
+                },
+                {
+                    "name": "SQL",
+                    "level": 1
+                }
+            ]
         },
         {
             "name": "Communication",
-            "list": {
-                "skill": [
-                    {
-                        "name": "give feedback",
-                        "level": 3
-                    },
-                    {
-                        "name": "recieve feedback",
-                        "level": 3
-                    },
-                    {
-                        "name": " empathic situation evaluation",
-                        "level": 4
-                    }
-                ]
-            }
+            "skill": [
+                {
+                    "name": "give feedback",
+                    "level": 3
+                },
+                {
+                    "name": "recieve feedback",
+                    "level": 3
+                },
+                {
+                    "name": " empathic situation evaluation",
+                    "level": 4
+                }
+            ]
         },
         {
             "name": "Tools",
-            "list": {
-                "skill": [
-                    {
-                        "name": "psd",
-                        "level": 4
-                    },
-                    {
-                        "name": "illustrator",
-                        "level": 4
-                    },
-                    {
-                        "name": "sketch",
-                        "level": 3
-                    }
-                ]
-            }
+            "skill": [
+                {
+                    "name": "psd",
+                    "level": 4
+                },
+                {
+                    "name": "illustrator",
+                    "level": 4
+                },
+                {
+                    "name": "sketch",
+                    "level": 3
+                }
+            ]
         },
         {
             "name": "design",
-            "list": {
-                "skill": [
-                    {
-                        "name": "interface",
-                        "level": 3
-                    },
-                    {
-                        "name": "print",
-                        "level": 2
-                    },
-                    {
-                        "name": "icon",
-                        "level": 2
-                    }
-                ]
-            }
+            "skill": [
+                {
+                    "name": "interface",
+                    "level": 3
+                },
+                {
+                    "name": "print",
+                    "level": 2
+                },
+                {
+                    "name": "icon",
+                    "level": 2
+                }
+            ]
         }
     ]
-}
 }

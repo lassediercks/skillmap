@@ -1,3 +1,5 @@
 require("./page.sass");
 require("./headerarea/header.js")
-require("./skillmap/skills.json")
+require("./skillmap/skills.js")
+
+
