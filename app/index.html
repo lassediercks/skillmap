@@ -4,27 +4,20 @@
         <meta charset="utf-8">
         <title>Skillmap</title>
     </head>
-    <body >
-      <header>
-      </header>
-        <div ng-controller="MapController as map">
-            {{map}}
+    <body ng-controller="CategoryController as categorys">
+            {{categorys}}
 
             <br>
             <br>
-            <br>
-            <div ng-repeat="category in map.categorys">
+
+
+            <div class="category-name" ng-repeat="category in categorys.name">
                 {{category.name}}
-                <div ng-repeat="skill in map.skills">
-                    {{skill.name}}
-                </div>
             </div>
 
-
-
-        </div>
         <p>Angular is working: {{1 + 1 === 2}}</p>
-        <script src="/bundle.js"></script>
     </body>
+
+    <script src="/bundle.js"></script>
 </html>
 
