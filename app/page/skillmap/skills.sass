@@ -1,4 +1,7 @@
-$skillBackgroundColor: rgb(110,29,29)
+$skillBackgroundColor: #385FEB
+
+*,*:after,*:before
+  box-sizing: border-box
 
 .skillmap
   display: flex
@@ -8,8 +11,10 @@ $skillBackgroundColor: rgb(110,29,29)
 
 .category
   min-width: 15em
+  border-radius: 6px
+  box-shadow: 0 0 .2em .3em rgba(0,0,0,.05)
   flex: 1 1
-  padding: 1em
+  padding: 1em 2em
   margin: 1em
   color: rgb(64,64,64)
   background: white
@@ -17,13 +22,15 @@ $skillBackgroundColor: rgb(110,29,29)
 
 .category-title
   font-size: 1.2em
-  margin: .5em
+  padding: .5em 0
+  border-bottom: 1px solid rgba(0,0,0,.2)
 
 .skill
+  margin: .25em 0
+
   position: relative
-  padding: 1em .5em
-  margin: .3em
   border-radius: 3px
+
   .title
     display: inline-block
     margin: .4em 0
@@ -34,18 +41,30 @@ $skillBackgroundColor: rgb(110,29,29)
   width: 100%
   height: 1em
   border-radius: 4px
+  position: relative
   overflow: hidden
   display: flex
   border: 1px solid black
+  justify-content: space-around
+
+  &-seperator
+    flex-basis: 20%
+    position: relative
+    outline: 1px solid rgba(0,0,0,.3)
 
 .skill-level-bar
-  background-color: lighten($skillBackgroundColor, 50)
+  position: absolute
+  top: 0
+  left: 0
+  height: 100%
+  background-color: $skillBackgroundColor
 
 
 $skilllevel: 5
 $i: 0
 
 @while $i < $skilllevel
+
   .skill-level-#{$i} .skill-level-bar
       width: 100/$skilllevel * $i + %
   $i: $i + 1

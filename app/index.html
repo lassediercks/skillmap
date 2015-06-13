@@ -16,9 +16,17 @@
                     <span class="title">
                         {{skill.name}}
                     </span>
-                    <div class="skill-level skill-level-{{skill.level}}">
-                        <div class="skill-level-bar"></div>
+
+                    <div ng-if="skill.level != null" class="skill-level skill-level-{{skill.level}}">
+                        <div class="skill-level-bar">
+                        </div>
+                        <div class="skill-level-seperator"></div>
+                        <div class="skill-level-seperator"></div>
+                        <div class="skill-level-seperator"></div>
+                        <div class="skill-level-seperator"></div>
+                        <div class="skill-level-seperator"></div>
                     </div>
+
                 </div>
 
             </div>
