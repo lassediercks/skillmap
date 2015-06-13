@@ -23,7 +23,7 @@
         },
         {
             "name": "Communication",
-            "skill": [
+            "skills": [
                 {
                     "name": "give feedback",
                     "level": 3
@@ -40,24 +40,24 @@
         },
         {
             "name": "Tools",
-            "skill": [
+            "skills": [
                 {
-                    "name": "psd",
+                    "name": "PSD",
                     "level": 4
                 },
                 {
-                    "name": "illustrator",
+                    "name": "Illustrator",
                     "level": 4
                 },
                 {
-                    "name": "sketch",
+                    "name": "Sketch",
                     "level": 3
                 }
             ]
         },
         {
             "name": "design",
-            "skill": [
+            "skills": [
                 {
                     "name": "interface",
                     "level": 3

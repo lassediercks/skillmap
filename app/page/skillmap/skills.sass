@@ -1,5 +1,51 @@
-.category-name
+$skillBackgroundColor: rgb(110,29,29)
+
+.skillmap
+  display: flex
+  flex-flow: wrap
+  justify-content: space-between
+  width: 100%
+
+.category
+  min-width: 15em
+  flex: 1 1
   padding: 1em
   margin: 1em
   color: rgb(64,64,64)
   background: white
+  display: inline-block
+
+.category-title
+  font-size: 1.2em
+  margin: .5em
+
+.skill
+  position: relative
+  padding: 1em .5em
+  margin: .3em
+  border-radius: 3px
+  .title
+    display: inline-block
+    margin: .4em 0
+
+
+
+.skill-level
+  width: 100%
+  height: 1em
+  border-radius: 4px
+  overflow: hidden
+  display: flex
+  border: 1px solid black
+
+.skill-level-bar
+  background-color: lighten($skillBackgroundColor, 50)
+
+
+$skilllevel: 5
+$i: 0
+
+@while $i < $skilllevel
+  .skill-level-#{$i} .skill-level-bar
+      width: 100/$skilllevel * $i + %
+  $i: $i + 1

@@ -5,17 +5,25 @@
         <title>Skillmap</title>
     </head>
     <body ng-controller="CategoryController as categorys">
-            {{categorys}}
+        <div class="skillmap">
+            <div class="category" ng-repeat="category in categorys.CATNAME">
+                <div class="category-title">
+                    {{category.name}}
+                </div>
+                <div
+                    class="skill"
+                    ng-repeat="skill in category.skills">
+                    <span class="title">
+                        {{skill.name}}
+                    </span>
+                    <div class="skill-level skill-level-{{skill.level}}">
+                        <div class="skill-level-bar"></div>
+                    </div>
+                </div>
 
-            <br>
-            <br>
-
-
-            <div class="category-name" ng-repeat="category in categorys.name">
-                {{category.name}}
             </div>
+        </div>
 
-        <p>Angular is working: {{1 + 1 === 2}}</p>
     </body>
 
     <script src="/bundle.js"></script>

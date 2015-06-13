@@ -5,7 +5,7 @@ var app = angular.module('skillsMap',[])
 var data = require('./skills.json');
 
 app.controller('CategoryController', function(){
-  this.name = data.category;
+  this.CATNAME = data.category;
 });
 
 // app.controller('MapController', function(){
