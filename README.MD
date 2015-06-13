@@ -1,8 +1,5 @@
-#Webpack playground setup
-
-This is just a webpack base config you can clone to start with. 
-Right now it features scss syntax.
-
+#Skillmap
+I had the Idea to catagolize my skills. This is based on my webpack-playground and is realised with angular
 
 ---
 ##Setup
