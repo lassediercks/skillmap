@@ -5,31 +5,9 @@
         <title>Skillmap</title>
     </head>
     <body ng-controller="CategoryController as categorys">
-        <div class="skillmap">
-            <div class="category" ng-repeat="category in categorys.CATNAME">
-                <div class="category-title">
-                    {{category.name}}
-                </div>
-                <div
-                    class="skill"
-                    ng-repeat="skill in category.skills">
-                    <span class="title">
-                        {{skill.name}}
-                    </span>
 
-                    <div ng-if="skill.level != null" class="skill-level skill-level-{{skill.level}}">
-                        <div class="skill-level-bar">
-                        </div>
-                        <div class="skill-level-seperator"></div>
-                        <div class="skill-level-seperator"></div>
-                        <div class="skill-level-seperator"></div>
-                        <div class="skill-level-seperator"></div>
-                        <div class="skill-level-seperator"></div>
-                    </div>
-
-                </div>
-
-            </div>
+        <div ng-controller="CategoryController">
+            <div skill-map></div>
         </div>
 
     </body>

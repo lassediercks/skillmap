@@ -8,6 +8,12 @@ app.controller('CategoryController', function(){
   this.CATNAME = data.category;
 });
 
+app.directive('skillMap', function() {
+  return {
+    templateUrl: 'skill-map.html'
+  };
+});
+
 // app.controller('MapController', function(){
 //   this.categorys = data.category;
 //   this.skills = data.skills;
