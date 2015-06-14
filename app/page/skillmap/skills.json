@@ -4,10 +4,6 @@
             "name": "Web Techniques",
             "skills": [
                 {
-                    "name": "Html",
-                    "level": 4
-                },
-                {
                     "name": "Css",
                     "level": 4
                 },
@@ -22,6 +18,10 @@
                 {
                     "name": "Ruby",
                     "level": 1
+                },
+                {
+                    "name": "Html",
+                    "level": 2
                 }
             ]
         },
@@ -57,6 +57,10 @@
                 {
                     "name": "Git",
                     "level": 4
+                },
+                {
+                    "name": "CSS-preprocessors",
+                    "level": 4
                 }
             ]
         },
@@ -68,14 +72,71 @@
                     "level": 3
                 },
                 {
+                    "name": "Web",
+                    "level": 3
+                },
+                {
                     "name": "print",
                     "level": 3
                 },
                 {
                     "name": "icon",
+                    "level": 3
+                },
+                {
+                    "name": "app",
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "name" : "Web fundamentals",
+            "skills" : [
+                {
+                    "name": "domains",
+                    "level": 2
+                },
+                {
+                    "name": "HTTP/HTTPS",
+                    "level": 1
+                }
+            ]
+        },
+        {
+            "name" : "Organisational Team",
+            "skills" : [
+                {
+                    "name": "planning",
                     "level": 2
                 }
             ]
+        },
+        {
+            "name" : "Organisational Personal",
+            "skills" : [
+                {
+                    "name": "focus",
+                    "level": 3
+                },
+                {
+                    "name": "align",
+                    "level": 4
+                }
+            ]
+        },
+        {
+            "name" : "Organisational Company",
+            "skills" : [
+                {
+                    "name": "be transparent",
+                    "level": 4
+                },
+                {
+                    "name": "align",
+                    "level": 3
+                }
+            ]
         }
+
     ]
 }
