@@ -61,6 +61,10 @@
                 {
                     "name": "CSS-preprocessors",
                     "level": 4
+                },
+                {
+                    "name": "Gulp",
+                    "level": 2
                 }
             ]
         },
@@ -70,6 +74,10 @@
                 {
                     "name": "interface",
                     "level": 3
+                },
+                {
+                    "name": "brand",
+                    "level": 2
                 },
                 {
                     "name": "Web",
@@ -86,6 +94,14 @@
                 {
                     "name": "app",
                     "level": 1
+                },
+                {
+                    "name": "3d",
+                    "level": 2
+                },
+                {
+                    "name": "motion",
+                    "level": 2
                 }
             ]
         },
