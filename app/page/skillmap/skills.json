@@ -65,6 +65,10 @@
                 {
                     "name": "Gulp",
                     "level": 2
+                },
+                {
+                    "name": "Webpack",
+                    "level": 2
                 }
             ]
         },
@@ -113,11 +117,15 @@
             "name" : "Web fundamentals",
             "skills" : [
                 {
-                    "name": "domains",
-                    "level": 2
+                    "name": "DNS",
+                    "level": 1
                 },
                 {
                     "name": "HTTP/HTTPS",
+                    "level": 1
+                },
+                {
+                    "name": "Layout rendering engines",
                     "level": 1
                 }
             ]
