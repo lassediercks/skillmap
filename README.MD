@@ -27,7 +27,7 @@ You're ready to roll
 
 * [webpack](http://webpack.github.io/)
 * [node](https://nodejs.org/)
-
+* [angular](https://angularjs.org/)
 
 
 
