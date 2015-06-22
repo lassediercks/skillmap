@@ -1,0 +1,55 @@
+<header>
+    <h2 class="headline">Skillmap</h2>
+</header>
+<div class="skillmap">
+
+    <div class="category" ng-repeat="category in categorys.CATNAME">
+        <div class="category-title">
+            {{category.name}}
+        </div>
+        <div class="skill-wrap">
+            <div
+                class="skill"
+                ng-repeat="skill in category.skills">
+                <span class="title">
+                    {{skill.name}}
+                </span>
+
+                <div ng-if="skill.level != null" class="skill-level skill-level-{{skill.level}}">
+                    <div class="skill-level-bar">
+                    </div>
+                    <div class="skill-level-seperator"></div>
+                    <div class="skill-level-seperator"></div>
+                    <div class="skill-level-seperator"></div>
+                    <div class="skill-level-seperator"></div>
+                    <div class="skill-level-seperator"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<h2 class='headline'>Definition of the levels</h2>
+<div class="skills-definition">
+        <ol start="0">
+            <li>
+            None: I don't know anything about this
+            </li>
+            <li>
+            Novice: I understand what it's doing but I'm not able to do it on my own.
+            </li>
+            <li>
+            Junior: I've got the baseline of this profession and can create easy things
+            </li>
+            <li>
+            Medior: I've got solid knowledge of this profession and know how to achieve things with it
+            </li>
+            <li>
+            Senior: Others ask me for help in this topic and basically I know everything about this. I understand problems so good that I'm able to explain this
+            </li>
+            <li>
+            Master: total nerd, I'm so good in this topic that I can question the profession itself.
+            </li>
+        </ol>
+
+</div>

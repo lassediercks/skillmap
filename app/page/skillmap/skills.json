@@ -26,29 +26,15 @@
             ]
         },
         {
-            "name": "Communication",
-            "skills": [
-                {
-                    "name": "give feedback"
-                },
-                {
-                    "name": "recieve feedback"
-                },
-                {
-                    "name": " empathic situation evaluation"
-                }
-            ]
-        },
-        {
             "name": "Tools",
             "skills": [
                 {
                     "name": "PSD",
-                    "level": 4
+                    "level": 3
                 },
                 {
                     "name": "Illustrator",
-                    "level": 4
+                    "level": 3
                 },
                 {
                     "name": "Sketch",
@@ -60,7 +46,7 @@
                 },
                 {
                     "name": "CSS-preprocessors",
-                    "level": 5
+                    "level": 4
                 },
                 {
                     "name": "Gulp",
@@ -73,7 +59,7 @@
             ]
         },
         {
-            "name": "design",
+            "name": "Design",
             "skills": [
                 {
                     "name": "interface",
@@ -131,46 +117,23 @@
             ]
         },
         {
-            "name" : "Organisational Team",
-            "skills" : [
-                {
-                    "name": "planning",
-                    "level": 2
-                }
-            ]
-        },
-        {
-            "name" : "Organisational Personal",
+            "name" : "Personal organisation",
             "skills" : [
                 {
                     "name": "focus",
-                    "level": 3
+                    "level": 2
                 },
                 {
-                    "name": "align",
-                    "level": 4
+                    "name": "alignment with team",
+                    "level": 3
                 },
                 {
                     "name": "efficiency",
-                    "level": 4
-                }
-
-
-            ]
-        },
-        {
-            "name" : "Organisational Company",
-            "skills" : [
-                {
-                    "name": "be transparent",
-                    "level": 4
-                },
-                {
-                    "name": "align",
                     "level": 3
                 }
+
+
             ]
         }
-
     ]
 }

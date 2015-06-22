@@ -10,15 +10,9 @@ app.controller('CategoryController', function(){
 
 app.directive('skillMap', function() {
   return {
-    templateUrl: 'skill-map.html'
+    templateUrl: '/app/page/skillmap/skill-map.html'
   };
 });
-
-// app.controller('MapController', function(){
-//   this.categorys = data.category;
-//   this.skills = data.skills;
-//   console.log(data.skills);
-// });
 
 angular.element(document).ready(function () {
   angular.bootstrap(document, [app.name], {

@@ -1,20 +1,34 @@
-$skillBackgroundColor: #385FEB
+
+$skillBackgroundColor: #89072E
 
 *,*:after,*:before
   box-sizing: border-box
+
+header
+  .description
+    padding: 0
+    margin: 0
+
+.headline
+  text-align: center
+  font-size: 4em
+  color: $skillBackgroundColor
 
 .skillmap
   display: flex
   flex-flow: wrap
   justify-content: space-between
   width: 100%
+  margin-bottom: 3em
 
 .category
+  overflow: hidden
   min-width: 15em
   border-radius: 6px
-  box-shadow: 0 0 .2em .3em rgba(0,0,0,.05)
+  box-shadow: 0 0 .2em .1em rgba(0,0,0,.05)
   flex: 1 1
-  padding: 1em 2em
+  max-width: 40em
+  padding-bottom: 1em
   margin: 1em
   color: rgb(64,64,64)
   background: white
@@ -22,12 +36,17 @@ $skillBackgroundColor: #385FEB
 
 .category-title
   font-size: 1.2em
-  padding: .5em 0
+  padding: 1em
+  font-weight: bold
+  color: rgba(0,0,0,0.5)
+  background: #F2F2F2
   border-bottom: 1px solid rgba(0,0,0,.2)
 
-.skill
-  margin: .25em 0
+.skill-wrap
+  padding: 1em 2em
 
+.skill
+  margin: .3 0
   position: relative
   border-radius: 3px
 
@@ -68,3 +87,13 @@ $i: 0
   .skill-level-#{$i} .skill-level-bar
       width: 100/$skilllevel * $i + %
   $i: $i + 1
+
+.skills-definition
+  margin: 0 auto
+  background: white
+
+  max-width: 40em
+  padding: 1em 2em
+  ol
+    li
+      margin-bottom: 2em
