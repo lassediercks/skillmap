@@ -10,7 +10,7 @@ app.controller('CategoryController', function(){
 
 app.directive('skillMap', function() {
   return {
-    templateUrl: '/app/page/skillmap/skill-map.html'
+    templateUrl: 'skill-map.html'
   };
 });
 

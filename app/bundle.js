@@ -71,14 +71,14 @@
 /* 3 */
 /***/ function(module, exports, __webpack_require__) {
 
-	__webpack_require__(8)
+	__webpack_require__(9)
 
 /***/ },
 /* 4 */
 /***/ function(module, exports, __webpack_require__) {
 
 	__webpack_require__(2);
-	__webpack_require__(10);
+	__webpack_require__(11);
 
 	var app = angular.module('skillsMap',[])
 	var data = __webpack_require__(13);
@@ -89,7 +89,7 @@
 
 	app.directive('skillMap', function() {
 	  return {
-	    templateUrl: '/app/page/skillmap/skill-map.html'
+	    templateUrl: 'skill-map.html'
 	  };
 	});
 
@@ -26537,7 +26537,7 @@
 	var content = __webpack_require__(7);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(12)(content, {});
+	var update = __webpack_require__(8)(content, {});
 	// Hot Module Replacement
 	if(false) {
 		// When the styles change, update the <style> tags
@@ -26560,66 +26560,6 @@
 
 /***/ },
 /* 8 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(9);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(12)(content, {});
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js?indentedSyntax!./headerarea.sass", function() {
-			var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js?indentedSyntax!./headerarea.sass");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 9 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(14)();
-	exports.push([module.id, "", ""]);
-
-/***/ },
-/* 10 */
-/***/ function(module, exports, __webpack_require__) {
-
-	// style-loader: Adds some css to the DOM by adding a <style> tag
-
-	// load the styles
-	var content = __webpack_require__(11);
-	if(typeof content === 'string') content = [[module.id, content, '']];
-	// add the styles to the DOM
-	var update = __webpack_require__(12)(content, {});
-	// Hot Module Replacement
-	if(false) {
-		// When the styles change, update the <style> tags
-		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js?indentedSyntax!./skills.sass", function() {
-			var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js?indentedSyntax!./skills.sass");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-		// When the module is disposed, remove the <style> tags
-		module.hot.dispose(function() { update(); });
-	}
-
-/***/ },
-/* 11 */
-/***/ function(module, exports, __webpack_require__) {
-
-	exports = module.exports = __webpack_require__(14)();
-	exports.push([module.id, "*, *:after, *:before {\n  box-sizing: border-box; }\n\nheader .description {\n  padding: 0;\n  margin: 0; }\n\n.headline {\n  text-align: center;\n  font-size: 4em;\n  color: #89072E; }\n\n.skillmap {\n  display: flex;\n  flex-flow: wrap;\n  justify-content: space-between;\n  width: 100%;\n  margin-bottom: 3em; }\n\n.category {\n  overflow: hidden;\n  min-width: 15em;\n  border-radius: 6px;\n  box-shadow: 0 0 .2em .1em rgba(0, 0, 0, 0.05);\n  flex: 1 1;\n  max-width: 40em;\n  padding-bottom: 1em;\n  margin: 1em;\n  color: #404040;\n  background: white;\n  display: inline-block; }\n\n.category-title {\n  font-size: 1.2em;\n  padding: 1em;\n  font-weight: bold;\n  color: rgba(0, 0, 0, 0.5);\n  background: #F2F2F2;\n  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }\n\n.skill-wrap {\n  padding: 1em 2em; }\n\n.skill {\n  margin: .3 0;\n  position: relative;\n  border-radius: 3px; }\n  .skill .title {\n    display: inline-block;\n    margin: .4em 0; }\n\n.skill-level {\n  width: 100%;\n  height: 1em;\n  border-radius: 4px;\n  position: relative;\n  overflow: hidden;\n  display: flex;\n  border: 1px solid black;\n  justify-content: space-around; }\n  .skill-level-seperator {\n    flex-basis: 20%;\n    position: relative;\n    outline: 1px solid rgba(0, 0, 0, 0.3); }\n\n.skill-level-bar {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  background-color: #89072E; }\n\n.skill-level-0 .skill-level-bar {\n  width: 0%; }\n\n.skill-level-1 .skill-level-bar {\n  width: 20%; }\n\n.skill-level-2 .skill-level-bar {\n  width: 40%; }\n\n.skill-level-3 .skill-level-bar {\n  width: 60%; }\n\n.skill-level-4 .skill-level-bar {\n  width: 80%; }\n\n.skill-level-5 .skill-level-bar {\n  width: 100%; }\n\n.skills-definition {\n  margin: 0 auto;\n  background: white;\n  max-width: 40em;\n  padding: 1em 2em; }\n  .skills-definition ol li {\n    margin-bottom: 2em; }\n", ""]);
-
-/***/ },
-/* 12 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
@@ -26841,6 +26781,66 @@
 			URL.revokeObjectURL(oldSrc);
 	}
 
+
+/***/ },
+/* 9 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(10);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(8)(content, {});
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js?indentedSyntax!./headerarea.sass", function() {
+			var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js?indentedSyntax!./headerarea.sass");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 10 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(14)();
+	exports.push([module.id, "", ""]);
+
+/***/ },
+/* 11 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// style-loader: Adds some css to the DOM by adding a <style> tag
+
+	// load the styles
+	var content = __webpack_require__(12);
+	if(typeof content === 'string') content = [[module.id, content, '']];
+	// add the styles to the DOM
+	var update = __webpack_require__(8)(content, {});
+	// Hot Module Replacement
+	if(false) {
+		// When the styles change, update the <style> tags
+		module.hot.accept("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js?indentedSyntax!./skills.sass", function() {
+			var newContent = require("!!./../../../node_modules/css-loader/index.js!./../../../node_modules/sass-loader/index.js?indentedSyntax!./skills.sass");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+		// When the module is disposed, remove the <style> tags
+		module.hot.dispose(function() { update(); });
+	}
+
+/***/ },
+/* 12 */
+/***/ function(module, exports, __webpack_require__) {
+
+	exports = module.exports = __webpack_require__(14)();
+	exports.push([module.id, "*, *:after, *:before {\n  box-sizing: border-box; }\n\nheader .description {\n  padding: 0;\n  margin: 0; }\n\n.headline {\n  text-align: center;\n  font-size: 4em;\n  color: #89072E; }\n\n.skillmap {\n  display: flex;\n  flex-flow: wrap;\n  justify-content: space-between;\n  width: 100%;\n  margin-bottom: 3em; }\n\n.category {\n  overflow: hidden;\n  min-width: 15em;\n  border-radius: 6px;\n  box-shadow: 0 0 .2em .1em rgba(0, 0, 0, 0.05);\n  flex: 1 1;\n  max-width: 40em;\n  padding-bottom: 1em;\n  margin: 1em;\n  color: #404040;\n  background: white;\n  display: inline-block; }\n\n.category-title {\n  font-size: 1.2em;\n  padding: 1em;\n  font-weight: bold;\n  color: rgba(0, 0, 0, 0.5);\n  background: #F2F2F2;\n  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }\n\n.skill-wrap {\n  padding: 1em 2em; }\n\n.skill {\n  margin: .3 0;\n  position: relative;\n  border-radius: 3px; }\n  .skill .title {\n    display: inline-block;\n    margin: .4em 0; }\n\n.skill-level {\n  width: 100%;\n  height: 1em;\n  border-radius: 4px;\n  position: relative;\n  overflow: hidden;\n  display: flex;\n  border: 1px solid black;\n  justify-content: space-around; }\n  .skill-level-seperator {\n    flex-basis: 20%;\n    position: relative;\n    outline: 1px solid rgba(0, 0, 0, 0.3); }\n\n.skill-level-bar {\n  position: absolute;\n  top: 0;\n  left: 0;\n  height: 100%;\n  background-color: #89072E; }\n\n.skill-level-0 .skill-level-bar {\n  width: 0%; }\n\n.skill-level-1 .skill-level-bar {\n  width: 20%; }\n\n.skill-level-2 .skill-level-bar {\n  width: 40%; }\n\n.skill-level-3 .skill-level-bar {\n  width: 60%; }\n\n.skill-level-4 .skill-level-bar {\n  width: 80%; }\n\n.skill-level-5 .skill-level-bar {\n  width: 100%; }\n\n.skills-definition {\n  margin: 0 auto;\n  background: white;\n  max-width: 40em;\n  padding: 1em 2em; }\n  .skills-definition ol li {\n    margin-bottom: 2em; }\n", ""]);
 
 /***/ },
 /* 13 */
