@@ -10,7 +10,7 @@
         <div class="skill-wrap">
             <div
                 class="skill"
-                ng-repeat="skill in category.skills">
+                ng-repeat="skill in category.skills | orderBy : '-level'">
                 <span class="title">
                     {{skill.name}}
                 </span>

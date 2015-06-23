@@ -26849,7 +26849,7 @@
 	module.exports = {
 		"category": [
 			{
-				"name": "Web Techniques",
+				"name": "Web Basics",
 				"skills": [
 					{
 						"name": "Css",
@@ -26857,6 +26857,10 @@
 					},
 					{
 						"name": "Javascript",
+						"level": 2
+					},
+					{
+						"name": "Html",
 						"level": 2
 					},
 					{
@@ -26868,8 +26872,8 @@
 						"level": 1
 					},
 					{
-						"name": "Html",
-						"level": 2
+						"name": "PHP",
+						"level": 1
 					}
 				]
 			},
@@ -26889,19 +26893,27 @@
 						"level": 3
 					},
 					{
+						"name": "Indesign",
+						"level": 2
+					},
+					{
 						"name": "Git",
-						"level": 4
+						"level": 3
 					},
 					{
 						"name": "CSS-preprocessors",
 						"level": 4
 					},
 					{
-						"name": "Gulp",
+						"name": "JS Task Runner (e.g. gulp/grunt)",
 						"level": 2
 					},
 					{
-						"name": "Webpack",
+						"name": "The Command Line",
+						"level": 3
+					},
+					{
+						"name": "JS-preprocessors",
 						"level": 2
 					}
 				]
@@ -26923,7 +26935,7 @@
 					},
 					{
 						"name": "print",
-						"level": 3
+						"level": 2
 					},
 					{
 						"name": "icon",
@@ -26943,7 +26955,7 @@
 					},
 					{
 						"name": "conversion driven",
-						"level": 3
+						"level": 2
 					}
 				]
 			},
@@ -26959,7 +26971,11 @@
 						"level": 1
 					},
 					{
-						"name": "Layout rendering engines",
+						"name": "Webserver",
+						"level": 2
+					},
+					{
+						"name": "Layout rendering engines (gecko, webkit)",
 						"level": 1
 					}
 				]
@@ -26969,7 +26985,7 @@
 				"skills": [
 					{
 						"name": "focus",
-						"level": 2
+						"level": 3
 					},
 					{
 						"name": "alignment with team",
