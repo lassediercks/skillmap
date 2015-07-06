@@ -1,0 +1,20 @@
+{
+  "name": "skillmap",
+  "main": "app.js",
+  "version": "0.0.1",
+  "homepage": "https://github.com/lassediercks/skillmap",
+  "authors": [
+    "Lasse Diercks <lasse@jimdo.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "firebase": "~2.2.7"
+  }
+}
