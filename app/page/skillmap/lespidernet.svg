@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="184px" height="209px" viewBox="0 0 184 209" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>lespidernet</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <polygon id="Data" stroke="#F2F2F2" fill="#89072E" sketch:type="MSShapeGroup" points="92.4685667 34.1586721 154.940742 69.1892397 115.810623 118.565146 92.4685667 181.15692 29.126621 140.886481 41.490351 77.4518684 "></polygon>
+        <path d="M92.9850884,4.00980267 L92,205" id="Line" stroke="#9A9A9A" stroke-linecap="square" opacity="0.411963619" sketch:type="MSShapeGroup"></path>
+        <path d="M92.9850884,4.00980267 L92,205" id="Line-Copy" stroke="#9A9A9A" stroke-linecap="square" opacity="0.411963619" sketch:type="MSShapeGroup" transform="translate(92.492544, 104.504901) rotate(-240.000000) translate(-92.492544, -104.504901) "></path>
+        <path d="M5.21496369,154.325895 L179.770125,54.6839078" id="Line-Copy-2" stroke="#9A9A9A" stroke-linecap="square" opacity="0.411963619" sketch:type="MSShapeGroup"></path>
+        <polygon id="Basegrid" stroke="#9A9A9A" opacity="0.411963619" sketch:type="MSShapeGroup" points="92.4685658 3 179.937132 53.5 179.937132 154.5 92.4685658 205 5 154.5 5 53.5 "></polygon>
+        <g id="points" sketch:type="MSLayerGroup">
+            <circle id="Oval-1" fill="#DFDFDF" sketch:type="MSShapeGroup" cx="93" cy="5" r="5"></circle>
+            <circle id="Oval-1-Copy-2" fill="#DFDFDF" sketch:type="MSShapeGroup" cx="179" cy="55" r="5"></circle>
+            <circle id="Oval-1-Copy-6" fill="#D3D3D3" sketch:type="MSShapeGroup" cx="92.5" cy="104.5" r="6.5"></circle>
+            <circle id="Oval-1-Copy-3" fill="#DFDFDF" sketch:type="MSShapeGroup" cx="5" cy="55" r="5"></circle>
+            <circle id="Oval-1-Copy-5" fill="#DFDFDF" sketch:type="MSShapeGroup" cx="179" cy="154" r="5"></circle>
+            <circle id="Oval-1-Copy-4" fill="#DFDFDF" sketch:type="MSShapeGroup" cx="5" cy="154" r="5"></circle>
+            <circle id="Oval-1-Copy" fill="#DFDFDF" sketch:type="MSShapeGroup" cx="93" cy="204" r="5"></circle>
+        </g>
+    </g>
+</svg>
